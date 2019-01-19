@@ -1,0 +1,19 @@
+/* 
+    Author schemabuoi
+    Author kiddo
+*/
+
+.button{
+    -fx-background-color:transparent;    
+    -fx-background-image: url("../images/CancelViewGrey.png");
+    -fx-background-repeat:no-repeat;
+    -fx-background-position:center;
+    -fx-background-size:8 8;  
+}
+.button:hover{
+    -fx-background-color:transparent;
+    -fx-background-image: url("../images/CancelView.png");
+    -fx-background-repeat:no-repeat;
+    -fx-background-position:center;
+    -fx-background-size:8 8;
+}

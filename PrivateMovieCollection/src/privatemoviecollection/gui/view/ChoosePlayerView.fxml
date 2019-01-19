@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="242.0" prefWidth="452.0" style="-fx-background-color: #121212;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="privatemoviecollection.gui.controller.ChoosePlayerViewController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1f93ff00" height="242.0" stroke="#212121" strokeLineJoin="ROUND" strokeType="INSIDE" strokeWidth="2.0" width="453.0" />
+      <ListView fx:id="lstPlayerSelection" fixedCellSize="70.0" layoutY="39.0" prefHeight="142.0" prefWidth="453.0" stylesheets="@../css/ListViewPlayerChooser.css" />
+      <ImageView fitHeight="37.0" fitWidth="40.0" layoutX="20.0" layoutY="58.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/wmplayer.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="50.0" fitWidth="58.0" layoutX="16.0" layoutY="118.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/LogoMainView.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="148.0" layoutY="191.0" mnemonicParsing="false" onAction="#clickOk" prefHeight="37.0" prefWidth="158.0" style="-fx-background-radius: 100;" stylesheets="@../css/ButtonNewSong.css" text="OK" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font></Button>
+      <Button layoutX="411.0" layoutY="2.0" mnemonicParsing="false" onAction="#clickClose" prefHeight="30.0" prefWidth="40.0" stylesheets="@../css/ButtonClose.css" />
+   </children>
+</AnchorPane>

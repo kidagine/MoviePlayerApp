@@ -1,0 +1,17 @@
+/* 
+    Author schemabuoi
+    Author kiddo
+*/
+
+.jfx-slider > .track{
+     -fx-background-color:#535353;
+}
+.jfx-slider > .colored-track{
+     -fx-background-color:#4deeea;
+}
+.jfx-slider > .thumb{
+     -fx-background-color:#4deeea;
+}
+.jfx-slider > .animated-thumb{
+     visibility:hidden;
+}

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="153.0" prefWidth="668.0" style="-fx-background-color: #282828;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="privatemoviecollection.gui.controller.NewCategoryViewController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#00142600" height="149.0" layoutX="2.0" layoutY="2.0" stroke="#212121" strokeLineJoin="ROUND" strokeType="OUTSIDE" strokeWidth="2.0" width="664.0" />
+      <TextField fx:id="txtName" layoutX="2.0" layoutY="45.0" prefHeight="42.0" prefWidth="664.0" promptText="Category name" style="-fx-background-color: #181818;" stylesheets="@../css/TextFieldGeneric.css">
+         <font>
+            <Font size="14.0" />
+         </font></TextField>
+      <Button layoutX="626.0" layoutY="2.0" mnemonicParsing="false" onAction="#clickClose" prefHeight="30.0" prefWidth="40.0" stylesheets="@../css/ButtonClose.css" />
+      <Button fx:id="btnSave" layoutX="348.0" layoutY="98.0" mnemonicParsing="false" onAction="#clickSave" prefHeight="39.0" prefWidth="220.0" style="-fx-background-radius: 100;" stylesheets="@../css/ButtonNewSong.css" text="Save" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font></Button>
+      <Button layoutX="110.0" layoutY="98.0" mnemonicParsing="false" onAction="#clickCancel" prefHeight="39.0" prefWidth="215.0" style="-fx-background-radius: 100;" stylesheets="@../css/ButtonSecondary.css" text="Cancel">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font></Button>
+      <Label layoutX="270.0" layoutY="14.0" text="Category Name" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

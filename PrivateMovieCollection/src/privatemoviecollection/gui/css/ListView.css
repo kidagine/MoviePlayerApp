@@ -1,0 +1,63 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 24-08-2016, 12:36:01
+    Author     : Stegger
+*/
+
+
+.list-view {
+    -fx-background-color: #121212;
+}
+
+.list-view .list-cell:hover {
+    -fx-text-fill:#b3b3b3;
+}
+
+.list-view .list-cell:selected {
+    -fx-text-fill:#4deeea;
+}
+
+.list-view .list-cell {
+    -fx-background-color: #121212;
+    -fx-text-fill: white;
+}
+
+.list-view .label {
+    -fx-text-fill: white;
+}
+
+
+    
+
+.scroll-bar .decrement-arrow {
+    -fx-padding:2.25;
+ }
+.scroll-bar .increment-arrow {
+    -fx-padding:2.25;
+}
+.list-view .scroll-bar:vertical {
+    -fx-scale-x: 0;
+}
+.list-view .scroll-bar:vertical {
+
+    -fx-padding:-7;
+}
+.list-view .scroll-bar{
+    -fx-background-color:transparent;
+}
+.list-view .scroll-bar .thumb{
+    -fx-background-color:derive(black, 50%);
+}
+.list-view .scroll-bar .thumb:hover{
+    -fx-background-color:derive(black, 70%);
+}
+.list-view .increment-button:hover ,.text-area .decrement-button:hover{
+    -fx-background-color:transparent;
+}
+.list-view .track{
+    visibility: hidden;
+}

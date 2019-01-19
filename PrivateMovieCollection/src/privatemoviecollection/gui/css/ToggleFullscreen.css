@@ -1,0 +1,20 @@
+/* 
+    Author schemabuoi
+    Author kiddo
+*/
+
+.toggle-button{			
+    -fx-base:#121212;
+    -fx-background-image:url("../images/FullscreenEnterSmall.png");
+    -fx-background-repeat:no-repeat;
+    -fx-background-position:center;	
+}
+.toggle-button:hover{
+    -fx-background-image:url("../images/FullscreenEnterBig.png");
+}
+.toggle-button:selected{
+    -fx-background-image:url("../images/FullscreenExitSmall.png");
+}
+.toggle-button:selected:hover{
+    -fx-background-image:url("../images/FullscreenExitBig.png");
+}

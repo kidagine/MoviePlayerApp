@@ -1,0 +1,28 @@
+/* 
+    Author schemabuoi
+    Author kiddo
+*/
+
+.text-field{
+    -fx-background-color:#181818;
+    -fx-padding:5 5 5 35;
+    -fx-prompt-text-fill:#b3b3b3;
+    -fx-background-image:url("../images/SearchIconGrey.png");
+    -fx-background-repeat:no-repeat;
+    -fx-background-position:left center;
+    -fx-background-size:26 26;
+}
+.text-field:hover{
+    -fx-prompt-text-fill:white;
+    -fx-background-image:url("../images/SearchIconWhite.png");
+     
+}.text-field:focused{
+    -fx-background-color:#535353;
+    -fx-text-fill:white;
+    -fx-prompt-text-fill:#b3b3b3;
+}
+.text-field:focus:required:placeholder-shown{
+    -fx-background-color:#535353;
+    -fx-text-fill:white;
+    -fx-prompt-text-fill:white;
+}
